@@ -1,0 +1,20 @@
+
+.selected{
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  @include media-breakpoint-down(md) {
+    .selected{
+       
+        width: 35%;
+    }
+  }
