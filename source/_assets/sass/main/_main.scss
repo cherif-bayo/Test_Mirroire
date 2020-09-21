@@ -7,9 +7,9 @@
  * Custom translucent site header
  */
 
- .dark-mode {
-  filter: invert(1) hue-rotate(180deg)
-}
+//  :root {
+//   filter: invert(100%);
+// }
  .site-nav ul {
 
     & a {
@@ -83,6 +83,7 @@
     margin-right: auto;
     width: 50%;
     background-color: $white;
+    margin-bottom: 3.4rem;
 
   }
   .product-separator hr {
@@ -108,12 +109,12 @@
   
   .product-content {
     position: relative;
-    min-height: 665px;
+    min-height: 700px;
   }
 
   .product-boomrang-content{
     position: absolute;
-    bottom: .6rem;
+    bottom: 2.6rem;
   }
   
   .product-content:hover {
@@ -164,16 +165,16 @@
     background-image: url('/assets/images/YT.svg');
   }
   .btn-facebook-w {
-    background-image: url('/assets/images/FB_White.svg');
+    background-image: url('/assets/images/FB.svg');
   }
   .btn-twitter-w {
-    background-image: url('/assets/images/TW_White.svg');
+    background-image: url('/assets/images/TW.svg');
   }
   .btn-linkedin-w {
-    background-image: url('/assets/images/LK_White.svg');
+    background-image: url('/assets/images/LK.svg');
   }
   .btn-youtube-w {
-    background-image: url('/assets/images/YT_White.svg');
+    background-image: url('/assets/images/YT.svg');
   }
   .hidden {
     display: none;
@@ -205,33 +206,33 @@
   }
   
   .btn-mention-w a {
-    color: $white;
+    color: $quatriary;
     font-weight: bold;
     margin-right: .7rem;
   
     &:hover{
-      border-bottom: 1px solid $white;
+      border-bottom: 1px solid $quatriary;
       text-decoration: none;
-      color: $white;
+      color: $quatriary;
     }
   }
   
   footer .nav-mention>li.btn-mention-w>a{
-    border-right: 2px solid $white;
+    border-right: 2px solid $quatriary;
     padding: 0 .4rem;
     &:hover{
-        border-bottom: 1px solid $white;
+        border-bottom: 1px solid $quatriary;
         text-decoration: none;
-        color: $white;
+        color: $quatriary;
       }
   }
   footer .nav-mention li.btn-mention-w:last-child a {
     border-right: none;
 
     &:hover{
-        border-bottom: 1px solid $white;
+        border-bottom: 1px solid $quatriary;
         text-decoration: none;
-        color: $white;
+        color: $quatriary;
       }
    
   }
@@ -244,21 +245,20 @@
   }  
   
   .wrapper{
-    min-height:1000px;
+    min-height: 600px;
   }
   .content-footer{
     display: block;
     background-repeat: repeat-y; 
-    border-image: url('/assets/images/FOOTER.png') 30; 
-    border-top: 25px solid white; 
-    background-color: $quatriary;
+    border-image: url('https://addinsoftdev.s3.us-east-2.amazonaws.com/assets/images/FOOTER.png') 30; 
+    border-top: 8px solid white; 
   }
   
   .article-content{
     display: block;
     background-repeat: repeat-y; 
-    border-image: url('/assets/images/FOOTER.png') 30; 
-    border-top: 25px solid white; 
+    // border-image: url('https://addinsoftdev.s3.us-east-2.amazonaws.com/assets/images/FOOTER.png') 30; 
+    border-top: 8px solid $quatriary; 
     min-height: 100%;
   }
   
@@ -287,12 +287,10 @@
   }
   
   @include media-breakpoint-up(md) {
-    .content-footer {
-      position: sticky;
-      bottom: 0;
-    }
+
     .content-footer{
-      height: 1.3rem; 
+      max-height: 2.3rem; 
+      margin-top: 2.6rem;
     }
   }
   

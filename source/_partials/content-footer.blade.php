@@ -1,7 +1,7 @@
 <footer class="container-fluid py-5 content-footer">
     <div class="row justify-content-center">
       <div class="col-md-4 text-center">
-        <p class="text-white font-weight-bold">{{ $page->copyright }}<p>
+        <p class="text-quatriary font-weight-bold">{{ $page->copyright }}<p>
       </div>
       <ul class="col-md-4 nav nav-mention">
       @foreach($rgpdsw as $rgpdw)

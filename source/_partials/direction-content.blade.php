@@ -8,11 +8,11 @@
   <div id="addinsoft-direction" class="collapsed show" aria-labelledby="addinsoft-5" data-parent="#accordionExample">
     <div class="row justify-content-center">
       @foreach($directions as $direction)
-          <div class="col-md-3 col-8 text-center">
+          <div class="col-md-3 col-6 text-center">
               <div class="flip-card mb-4">
                   <div class="flip-card-inner">
                       <div class="flip-card-front">
-                      <img src="{{ $direction->image }}" alt="{{ $direction->alt }}" style="width:200px;height:200px;">
+                      <img src="{{ $page->s3Assets }}{{ $direction->image }}" alt="{{ $direction->alt }}" style="width:200px;height:200px;">
                       <p>{{ $direction->name }} {{ $direction->firstname }}</p>   
                       </div>
                       <div class="flip-card-back">

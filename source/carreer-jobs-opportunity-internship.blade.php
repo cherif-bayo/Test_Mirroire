@@ -1,13 +1,14 @@
 @extends('_layouts.content')
 
 @section('body')
-<div itemscope="" itemtype="http://schema.org/WebPage" class="container article-content">
+<div class="container-fluid article-content"></div>
+<div itemscope="" itemtype="http://schema.org/WebPage" class="container">
     <div class="wrapper">
     <div class="row mt-4 d-flex">
-            <div class="col-md-12 mt-4">
+            <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 itemprop="name" class="font-weight-bold text-uppercase">mission</h3>
+                        <h1 itemprop="name" class="my-4">Mission</h3>
                         <p itemprop="description">Make data analysis and statistics accessible to all.</p>
                     </div>
                 </div>

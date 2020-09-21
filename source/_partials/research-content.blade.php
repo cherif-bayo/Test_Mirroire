@@ -8,11 +8,11 @@
 <div id="addinsoft-research" class="collapse" aria-labelledby="addinsoft-3" data-parent="#accordionExample">
     <div class="row justify-content-center">
       @foreach($researchs as $research)
-          <div class="col-md-3 col-8 text-center">
+          <div class="col-md-3 col-6 text-center">
               <div class="flip-card mb-4">
                   <div class="flip-card-inner">
                       <div class="flip-card-front">
-                      <img src="{{ $research->image }}" alt="{{ $research->alt }}" style="width:200px;height:200px;">
+                      <img src="{{ $page->s3Assets }}{{ $research->image }}" alt="{{ $research->alt }}" loading="lazy" style="width:200px;height:200px;">
                       <p>{{ $research->name }} {{ $research->firstname }}</p>  
                       </div>
                       <div class="flip-card-back">

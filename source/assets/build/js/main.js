@@ -122,8 +122,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/cherif-b/Desktop/folders/corporate/addinsoft/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /home/cherif-b/Desktop/folders/corporate/addinsoft/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /home/cherif-b/Desktop/folders/corporate/Addinsoft_Inc/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /home/cherif-b/Desktop/folders/corporate/Addinsoft_Inc/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })

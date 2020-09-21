@@ -5,6 +5,7 @@ use Illuminate\Support\Str;
 return [
     'production' => false,
     'baseUrl' => '',
+    's3Assets' => 'https://addinsoftdev.s3.us-east-2.amazonaws.com',
     'title' => 'Addinsoft',
     'brand' => 'ADDINSOFT',
     'logo' => '/assets/images/ADDINSOFT.png',

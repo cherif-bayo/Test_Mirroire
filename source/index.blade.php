@@ -8,7 +8,7 @@
     <div class="col-md-6 col-lg-6 col-xl-3 col-12 product-content" id="{{ $software->id }}" itemscope itemtype="http://schema.org/Product">
       <div class="row justify-content-center">
         <div class="col-md-10 text-center">
-          <img itemprop="brand" src="{{ $software->image }}" alt="{{ $software.alt-img }}" >
+          <img itemprop="brand" src="{{ $page->s3Assets }}{{ $software->image }}" alt="{{ $software->altLogo }}" >
         </div>
         <div class="col-md-10 text-content">
           <h5 itemprop="name" class="text-white">{{ $software->headline }}</h5>
@@ -16,7 +16,7 @@
         </div>
         <div class="row product-boomrang-content">
           <div class="col-md-6 text-center">
-            <img itemprop="image" src="{{ $software->boomerang }}" alt="{{ $software->alt-img }}">
+            <img itemprop="image" src="{{ $page->s3Assets }}{{ $software->boomerang }}" alt="{{ $software->altBoomerang }}">
           </div>
           <div itemprop="url"class="col-md-6 d-flex align-items-center">
             <a href="{{ $software->link }}" class="text-white font-weight-bold" target="_blank">{{ $software->linkLabel }}</a>
@@ -32,7 +32,7 @@
           <div class="text-center product-separator"></div>
           
           <div class="text text-white text-center mt-4">
-            <iframe width="300" height="200" src="https://www.youtube.com/embed/T5Syzsf5IeI" allowfullscreen>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/T5Syzsf5IeI" loading="lazy" allowfullscreen>
             </iframe>
           </div>
           <div class="hidden" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">Rated <span itemprop="ratingValue">98%</span>/5 based on <span itemprop="reviewCount">10000</span> customer reviews
