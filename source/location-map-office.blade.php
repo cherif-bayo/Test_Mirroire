@@ -9,7 +9,6 @@
             <h1 itemprop="name" class="my-4">Addinsoft Locations</h3>
             <p itemprop="description">waiting for the map </p> 
             <p itemprop="description">This is the test from Gitlab </p> 
-            <p itemprop="description">This is the  second test from Gitlab </p> 
         </div>
     </div>
     </div>
