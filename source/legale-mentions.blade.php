@@ -22,7 +22,7 @@
                         <p>The head of publication of the Website is Thierry FAHMY.</p>
                         <p> The website host is ???????</p>
                         <p> Test Push from Gitlab</p>
-                        <p> Test Push from Gitlab</p>
+                        
                     </div>
                 </div>
             </div>
